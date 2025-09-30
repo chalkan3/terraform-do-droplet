@@ -3,10 +3,12 @@
 [![Terraform](https://img.shields.io/badge/Terraform-1.0+-623CE4?style=flat&logo=terraform)](https://www.terraform.io/)
 [![DigitalOcean](https://img.shields.io/badge/DigitalOcean-Compatible-0080FF?style=flat&logo=digitalocean)](https://www.digitalocean.com/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+[![GitHub](https://img.shields.io/github/license/chalkan3/terraform-do-droplet)](https://github.com/chalkan3/terraform-do-droplet/blob/master/LICENSE)
+[![Validation](https://img.shields.io/badge/Terraform-Validated-success?style=flat&logo=terraform)](https://www.terraform.io/)
 
-🚀 **Professional Terraform modules for managing DigitalOcean droplets with best practices and enterprise-grade structure.**
+🏗️ **Enterprise-grade Terraform modules for managing DigitalOcean infrastructure with best practices, security, and scalability.**
 
-This repository provides reusable Terraform modules for creating and managing DigitalOcean infrastructure with a focus on modularity, security, and maintainability.
+This repository provides production-ready Terraform modules for creating and managing DigitalOcean infrastructure with a focus on modularity, security, and maintainability.
 
 ## 🏗️ Architecture
 
