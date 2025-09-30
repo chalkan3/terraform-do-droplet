@@ -34,7 +34,7 @@ resource "digitalocean_project" "this" {
   name        = "${var.project}-${var.environment}"
   description = "${var.project} infrastructure for ${var.environment} environment"
   purpose     = var.project_purpose
-  environment = var.environment
+  environment = var.environment == "dev" ? "development" : var.environment == "prod" ? "production" : var.environment
 
   resources = flatten([
     [for droplet in module.droplets : droplet.urn],

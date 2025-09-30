@@ -50,7 +50,6 @@ output "droplets" {
       ipv4_address         = droplet.ipv4_address
       ipv4_address_private = droplet.ipv4_address_private
       ipv6_address         = droplet.ipv6_address
-      ipv6_address_private = droplet.ipv6_address_private
       vpc_uuid             = droplet.vpc_uuid
       status               = droplet.status
       tags                 = droplet.tags
