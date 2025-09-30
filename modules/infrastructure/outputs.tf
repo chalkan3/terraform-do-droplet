@@ -6,7 +6,7 @@ output "vpc_id" {
 
 output "vpc_urn" {
   description = "The URN of the VPC"
-  value       = var.create_vpc ? digitalocean_vpc.this[0].urn : null
+  value       = var.create_vpc ? digitalocean_vpc.this[0].id : null
 }
 
 output "vpc_ip_range" {
@@ -33,7 +33,7 @@ output "project_id" {
 
 output "project_urn" {
   description = "The URN of the DigitalOcean project"
-  value       = var.create_project ? digitalocean_project.this[0].urn : null
+  value       = var.create_project ? digitalocean_project.this[0].id : null
 }
 
 # Droplet Outputs
@@ -98,7 +98,7 @@ output "load_balancer_ip" {
 
 output "load_balancer_urn" {
   description = "The URN of the load balancer"
-  value       = var.create_load_balancer ? digitalocean_loadbalancer.this[0].urn : null
+  value       = var.create_load_balancer ? digitalocean_loadbalancer.this[0].id : null
 }
 
 output "load_balancer_status" {

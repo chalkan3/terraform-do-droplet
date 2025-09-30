@@ -38,7 +38,7 @@ resource "digitalocean_project" "this" {
 
   resources = flatten([
     [for droplet in module.droplets : droplet.urn],
-    var.create_vpc ? [digitalocean_vpc.this[0].urn] : []
+    var.create_vpc ? [digitalocean_vpc.this[0].id] : []
   ])
 }
 

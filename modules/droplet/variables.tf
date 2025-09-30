@@ -142,11 +142,6 @@ variable "firewall_outbound_rules" {
       protocol              = "udp"
       port_range            = "1-65535"
       destination_addresses = ["0.0.0.0/0", "::/0"]
-    },
-    {
-      protocol              = "icmp"
-      port_range            = ""
-      destination_addresses = ["0.0.0.0/0", "::/0"]
     }
   ]
 }
