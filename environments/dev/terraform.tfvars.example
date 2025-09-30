@@ -1,0 +1,19 @@
+# Development Environment - terraform.tfvars.example
+# Copy this file to terraform.tfvars and fill in your values
+
+# DigitalOcean API Token (required)
+# Get from: https://cloud.digitalocean.com/account/api/tokens
+do_token = "your_digitalocean_token_here"
+
+# Project Configuration
+project_name = "webapp"
+region      = "nyc3"
+
+# SSH Configuration (optional but recommended)
+# ssh_public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAAB... your-email@example.com"
+
+# Additional SSH keys (optional)
+# additional_ssh_keys = ["existing-key-id-1", "existing-key-id-2"]
+
+# Security: Restrict SSH access to specific IPs (recommended for production)
+# allowed_ssh_ips = ["your.ip.address/32", "office.ip.range/24"]

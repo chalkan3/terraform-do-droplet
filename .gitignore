@@ -1,0 +1,64 @@
+# Terraform
+.terraform/
+.terraform.lock.hcl
+*.tfstate
+*.tfstate.*
+*.tfvars
+!*.tfvars.example
+.terraformrc
+terraform.rc
+crash.log
+crash.*.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terragrunt-cache/
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Backup files
+*.backup
+*.bak
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Temporary files
+*.tmp
+*.temp
+
+# SSH keys (never commit private keys)
+*.pem
+*.key
+id_rsa
+id_dsa
+id_ecdsa
+id_ed25519
+
+# Certificate files
+*.crt
+*.cer
+*.p12
+*.pfx
+
+# Configuration files with secrets
+config.json
+secrets.json
