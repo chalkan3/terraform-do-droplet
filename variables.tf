@@ -28,18 +28,6 @@ variable "droplet_size" {
   default     = "s-1vcpu-1gb"
 }
 
-variable "environment" {
-  description = "Environment name"
-  type        = string
-  default     = "example"
-}
-
-variable "project_name" {
-  description = "Project name"
-  type        = string
-  default     = "single-droplet-example"
-}
-
 variable "enable_backups" {
   description = "Enable backups"
   type        = bool
@@ -50,4 +38,10 @@ variable "droplet_tags" {
   description = "Tags for the droplet"
   type        = list(string)
   default     = ["example", "terraform"]
+}
+
+variable "create_firewall" {
+  description = "Create firewall with default rules"
+  type        = bool
+  default     = true
 }

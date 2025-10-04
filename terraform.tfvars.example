@@ -5,14 +5,10 @@
 do_token = "your_digitalocean_token_here"
 
 # Droplet Configuration
-droplet_name = "example-droplet"
-droplet_image = "ubuntu-22-04-x64"
+droplet_name   = "example-droplet"
+droplet_image  = "ubuntu-22-04-x64"
 droplet_region = "nyc3"
-droplet_size = "s-1vcpu-1gb"
-
-# Project Organization
-environment = "example"
-project_name = "single-droplet-example"
+droplet_size   = "s-1vcpu-1gb"
 
 # Features
 enable_backups = false
